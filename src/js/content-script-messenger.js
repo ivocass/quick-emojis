@@ -245,8 +245,10 @@ function showCustomizationPanel() {
 		</input>
 
 		<div>
-		<button id="quick-emojis-source-code-button" class="hover-background">📖 Source code</button>
-		<button id="quick-emojis-donate-button" class="hover-background">🥳 Donate</button>
+		<button id="quick-emojis-source-code-button" class="hover-background"
+		title="https://github.com/ivocass/quick-emojis">📖 Source code</button>
+		<button id="quick-emojis-donate-button" class="hover-background"
+		title="https://paypal.me/IvoCass">🥳 Donate</button>
 		<button id="quick-emojis-save-button" class="hover-background">💾 Save</button>
 
 		<button id="quick-emojis-dark-mode-button" title="Toggle dark mode">

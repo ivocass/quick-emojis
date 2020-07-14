@@ -195,9 +195,11 @@ function showCustomizationPanel() {
 
 		<div>
 		<button id="quick-emojis-source-code-button"
-		class="quick-emojis-customization-button">📖 Source code</button>
+		class="quick-emojis-customization-button"
+		title="https://github.com/ivocass/quick-emojis">📖 Source code</button>
 		<button id="quick-emojis-donate-button"
-		class="quick-emojis-customization-button">🥳 Donate</button>
+		class="quick-emojis-customization-button"
+		title="https://paypal.me/IvoCass">🥳 Donate</button>
 		<button id="quick-emojis-save-button" 
 		class="quick-emojis-customization-button">💾 Save</button>
 
