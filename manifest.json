@@ -1,6 +1,6 @@
 {
-	"name": "Quick Emojis for WhatsApp, Messenger, Telegram and Slack",
-	"version": "1.0",
+	"name": "Quick Emojis for WhatsApp and Messenger",
+	"version": "0.0.0.1",
 	"description": "One-click reply using your favorite emojis",
 	"permissions": ["activeTab", "declarativeContent", "storage"],
 
