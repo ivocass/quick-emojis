@@ -3,7 +3,7 @@
  */
 console.log("running");
 
-const DEFAULT_EMOJIS = "👍,👌,👏,😁,😆,😝,😅,😂,🤣,😎,😮,😔,🤩,😍";
+const DEFAULT_EMOJIS = "👌,👏,😁,😆,😝,😅,😂,🤣,😎,😮,😔,🤩,😍";
 
 const SLIDE_ANIM_DURATION = 250;
 

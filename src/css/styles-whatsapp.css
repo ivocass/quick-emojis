@@ -21,6 +21,12 @@ body.quick-emojis-dark-mode {
 	top: calc(var(--emoji-bar-height) * -1) !important;
 }
 
+/* this is the emojis suggestion bar (it pops up when using keyboard shortcuts for emojis, like
+":smile". we bring it forward so that the emoji bar doesn't cover it) */
+._2ohEh {
+	z-index: 2;
+}
+
 footer {
 	margin-top: 40px !important;
 }
