@@ -1,0 +1,116 @@
+body {
+	width: 300px;
+	height: 180px;
+}
+
+#logos-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#logo-name-img {
+	width: 160px;
+	height: 37px;
+	margin-left: 10px;
+}
+
+#toggles-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.toggle-wrapper {
+	display: flex;
+	margin: auto;
+	margin-bottom: 5px;
+	width: 150px;
+}
+
+.label {
+	font-size: 15px;
+	color: #424242;
+	top: -3px;
+	margin-right: 10px;
+	user-select: none;
+}
+
+.toggle {
+	margin-left: auto;
+	width: 40px;
+	display: inline-block;
+
+	position: relative;
+	top: 2px;
+
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+.onoffswitch-checkbox {
+	display: none;
+}
+
+.onoffswitch-label {
+	width: 38px;
+	height: 20px;
+	line-height: 20px;
+
+	padding: 0;
+	display: block;
+	margin: 0;
+	overflow: hidden;
+
+	cursor: pointer;
+	border-radius: 30px;
+	background-color: #d5d5d5;
+
+	transition: background-color 0.3s ease-in;
+}
+
+.onoffswitch-label:before {
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: block;
+	box-shadow: 2px 2px 5px #888888;
+
+	position: absolute;
+	top: 2px;
+	left: 3px;
+
+	border-radius: 30px;
+	background: white;
+
+	transition: all 0.1s ease-in 0s;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+	background: #49d060;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+	left: 19px;
+	background: white;
+}
+
+#buttons-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+}
+
+button {
+	padding: 10px;
+	border-radius: 20px;
+	background-color: white;
+	border: none;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #ececec;
+}

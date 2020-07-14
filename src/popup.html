@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=“UTF-8”>
+		<script src="js/popup.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/popup.css" />
+	</head>
+	<body>
+
+		<div id="logos-container">
+		
+			<img id="logo-img" src="../assets/quick-emojis-logo48.png"
+			></img>
+
+			<img id="logo-name-img" src="../assets/quick-emojis-logo-name.png"
+			></img>
+
+		</div>
+
+		<div id="toggles-container">
+
+			<div id="whatsapp-toggle" class="toggle-wrapper">
+				<span class="label">WhatsApp </span>
+
+				<div class="toggle">
+					<input
+						type="checkbox"
+						name="onoffswitch"
+						class="onoffswitch-checkbox"
+						id="whatsapp-input"
+					/>
+					<label class="onoffswitch-label" htmlFor="whatsapp-toggle" />
+				</div>
+			</div>
+
+			<div id="messenger-toggle" class="toggle-wrapper">
+				<span class="label">Messenger</span>
+
+				<div class="toggle">
+					<input
+						type="checkbox"
+						name="onoffswitch"
+						class="onoffswitch-checkbox"
+						id="messenger-input"
+					/>
+					<label class="onoffswitch-label" htmlFor="messenger-toggle" />
+				</div>
+			</div>
+
+		</div>
+
+		<div id="buttons-container">
+			<button id="quick-emojis-source-code-button"
+			class="quick-emojis-customization-button"
+			title="https://github.com/ivocass/quick-emojis"
+			>&#x1F4D6; Source code</button>
+			<button id="quick-emojis-donate-button"
+			class="quick-emojis-customization-button"
+			title="https://paypal.me/IvoCass"
+			>&#x1F973; Donate</button>
+		</div>
+	</body>
+</html>
