@@ -2,7 +2,7 @@
  * TODO: refactor to handle all apps at once.
  */
 
-const DEFAULT_EMOJIS = "👍🏻,👌🏻,👏🏻,😁,😆,😝,😅,😂,🤣,😎,😮,😔,🤩,😍";
+const DEFAULT_EMOJIS = "👍,👌,👏,😁,😆,😝,😅,😂,🤣,😎,😮,😔,🤩,😍";
 
 const SLIDE_ANIM_DURATION = 250;
 
