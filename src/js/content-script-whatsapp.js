@@ -7,7 +7,7 @@ const DEFAULT_EMOJIS = "👍,👌,👏,😁,😆,😝,😅,😂,🤣,😎,😮,�
 const SLIDE_ANIM_DURATION = 250;
 
 // thanks to Astigmatic for the font Yellowtail (https://fonts.google.com/specimen/Yellowtail)
-const LOGO_IMG_SOURCE = chrome.runtime.getURL("assets/quick-emojis-logo48.png");
+const LOGO_IMG_SOURCE = chrome.runtime.getURL("assets/quick-emojis-logo48-whatsapp.png");
 const LOGO_NAME_IMG_SOURCE = chrome.runtime.getURL("assets/quick-emojis-logo-name.png");
 const TIMES_ICON_SVG_SOURCE = chrome.runtime.getURL("assets/timesIcon.svg");
 const DARK_MODE_ICON_SOURCE = chrome.runtime.getURL("assets/dark-mode-icon.png");
