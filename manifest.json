@@ -2,7 +2,7 @@
 	"name": "Quick Emojis for WhatsApp and Messenger",
 	"version": "0.0.0.1",
 	"description": "One-click reply using your favorite emojis",
-	"permissions": ["activeTab", "declarativeContent", "storage"],
+	"permissions": ["storage"],
 
 	"browser_action": {
 		"default_icon": {
