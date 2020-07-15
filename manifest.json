@@ -3,7 +3,6 @@
 	"version": "0.0.0.1",
 	"description": "One-click reply using your favorite emojis",
 	"permissions": ["storage"],
-
 	"browser_action": {
 		"default_icon": {
 			"16": "assets/quick-emojis-logo16.png",

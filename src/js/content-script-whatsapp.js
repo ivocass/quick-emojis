@@ -97,7 +97,7 @@ function addEmojiButtons() {
 	for (let i = 0; i < emojis.length; i++) {
 		let btn = document.createElement("div");
 		btn.className = "quick-emoji-button";
-		btn.innerHTML = emojis[i];
+		btn.innerText = emojis[i];
 		emojiBar.appendChild(btn);
 	}
 
@@ -155,7 +155,7 @@ function sendMessage(input, message, onlyAppend) {
 
 	let inputWasEmpty = inputContent === "" || inputContent === "<br>";
 
-	input.innerHTML = inputWasEmpty ? message : inputContent + message;
+	input.innerText = inputWasEmpty ? message : inputContent + message;
 	input.dispatchEvent(evt);
 
 	if (!onlyAppend && inputWasEmpty) {
